@@ -24,16 +24,29 @@ nav{
 }
 
     .container{
-margin-left: 16%;
+
       margin-top:   100px;
+   
   
     }
-    .Picss{
-      margin-left: 15%;
-      margin-top: 10%;
-      margin-right: 15%;
+    .Picss {
+      max-width: 800px; 
+      margin: 20px auto;
+      padding: 20px; 
+      background-color: #295ac5; 
+      border-radius: 30px; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      font-family: 'Arial', sans-serif; 
+      line-height: 1.6; 
+     margin-top: 150px;
+
     }
     
+    .Picss div {
+      margin-bottom: 15px; 
+      font-size: 1.1rem; 
+      color: #333; 
+    }
   h4{
 margin-top: 5%;
     margin-bottom: 10px; 
@@ -41,24 +54,14 @@ margin-top: 5%;
    
   }
     .card1{
-margin-left: 16%;
-      margin-top: 10px;
-      margin-bottom:100px;
+margin: auto;
   
     }
 
-.card{
-
-  display:inline;
-
-}
-.card1{
-  display: inline-block;
-
-}
 .card {
     border: none;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display:inline;
 }
 
 .card:hover {
@@ -80,18 +83,20 @@ margin-left: 16%;
     transform: scale(1.15);
 }
 .jumbotron {
-    margin-bottom: 10px; 
-    padding: 5rem 4rem;
-  
-    border-radius: 0.3rem; 
+  background-color: linear-gradient(135deg, #081057, #5313DC ,#7900A4); 
+  padding: 60px 20px; 
+  border-radius: 8px;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
+  flex-direction: column; 
 }
-.jumbotron .btn-primary:hover {
-    background-color: #f30000;
-}
-#picture{
-margin-left: 10%;
 
-}
+
+
+
+
 #Wel{
 margin-left: 60%;
 
@@ -113,44 +118,34 @@ margin-bottom:5%;
     padding: 30px 0;
 }
 
+
 .footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: contents;
 }
 
-.footer-content ul {
-    list-style: none;
-    padding: 0;
-    margin:0%
-
+.footer-links, .footer-location, .footer-follow-us {
+  padding: 10px; 
+  border: 1px solid #ddd;
+  border-radius: 8px; 
+  background-color:linear-gradient(135deg, #081057, #5313DC ,#7900A4); 
 }
 
-.footer-content ul li {
-    margin-right: 15px;
+.footer-links ul {
+  list-style: none; 
+  padding: 0;
 }
 
-.footer-content ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-.footer-content ul li a:hover {
-    color: #ccc;
-}
-
-.footer-location,
-.footer-follow-us {
-    text-align: center;
+.footer-links li {
+  margin: 5px 0; 
 }
 
 .footer-follow-us a {
-    color: #fff;
-    font-size: 20px;
-    margin: 0
+  margin-right: 10px; 
 }
 
+.footer-follow-us img {
+  vertical-align: middle; 
+}
 .chip {
   display: inline-block;
   padding: 0 25px;
